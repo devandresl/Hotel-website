@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Lato;
+    src: url(recursos/Lato-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Lato;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 13px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: #C48F33;
+    transition: all 0.5s;
+}
+
+.logo{
+    max-width: 100px;
+    margin: 10px;
+}
+
+.logo-mobile{
+    display: none;
+    margin: 10px;
+}
+
+@media (max-width:700px){
+    .logo{
+        display: none;
+    }
+    
+    .logo-mobile{
+        display: block;
+    }
+
+    .logo-mobile img{
+        max-width: 100px;
+    }
+}
+
+/* banner */
+
+.banner{
+    background-image: url(recursos/banner.webp);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-hab{
+    background-image: url(recursos/bannerhab.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* intro */
+
+#frase{
+    text-align: center;
+    margin: 20px;
+    color: #C48F33;
+    word-spacing: 5px;
+}
+
+.divisor{
+    border-bottom: 2px solid #C48F33;
+    max-width: 500px;
+}
+
+.containerhotel{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerhotel img{
+    max-width: 250px;
+    border: 3px solid #C48F33;
+}
+
+.containerhotel p{
+    max-width: 450px;
+    padding: 20px;
+}
+
+.container1{
+    display: flex;flex-direction: column;
+}
+
+/* ubi */
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+/* foter */
+footer{
+    background-color: #333333;
+}
+
+.logo-footer{
+    padding: 20px;
+}
+
+.divider-footer{
+    width: 250px;
+    border-bottom: #C48F33 1px solid;
+}
+
+.icon{
+    max-width: 15px;
+    margin: 5px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icon{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+}
+
+.divider-footer-vertical{
+    height: 60px;
+    border-left: #C48F33 1px solid ;
+}
+
+/* habitaciones */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.img-hab{
+    max-width: 100%;
+}
+.hab-nick{
+    color: #C48F33;
+    margin-bottom: 5px;
+}
+.container-hab{
+    margin: 30px;
+    border: #C48F33 3px solid;
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+}
+
+.carac-hab{
+    font-size: 11px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.text-hab{
+    margin: 10px;
+}
+
+.flex-hab{
+    display: flex;
+}
+
+.buton-hab{
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.buton-p{
+    color: #fff;
+}
+
+.divider-hab{
+    margin-top: 5px;
+    height: 90%;
+    border-left: #C48F33 1.5px solid ;
+}
+
+/* caracts-hab */
+
+.container-carac-habs{
+    margin: auto;
+    margin-bottom: 40px;
+    border: #C48F33 3px solid;
+    max-width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-icon-habs{
+    display: flex;
+    margin: 10px;
+}
+
+.icon-hab{
+    max-width: 25px;
+    margin-right: 14px;
+}
