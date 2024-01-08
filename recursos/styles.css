@@ -1,6 +1,6 @@
 @font-face {
     font-family: Lato;
-    src: url(recursos/Lato-Regular.ttf);
+    src: url(Lato-Regular.ttf);
 }
 
 *{
@@ -63,7 +63,7 @@ a:hover{
 /* banner */
 
 .banner{
-    background-image: url(recursos/banner.webp);
+    background-image: url(banner.webp);
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ a:hover{
 }
 
 .banner-hab{
-    background-image: url(recursos/bannerhab.jpg);
+    background-image: url(bannerhab.jpg);
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
